@@ -1,0 +1,130 @@
+body {                      
+    font-family: Helvetica;   
+    background:fixed;
+    background-color: black;
+    background-image: url('backgroundmtn3.jpg'); 
+    background-repeat: no-repeat;
+    background-position: top center;                    
+    margin:0;
+    padding:0;
+    background-size: 1024px;
+    overflow-x: hidden;
+    }                                
+#page-wrap { 
+    width: 1024px;
+    height:1086px;  
+    margin: 0 auto;
+    position:relative;
+    top:50%;
+    left:50%;
+    margin-top:211px;
+    margin-left:-512px;
+    overflow-x: hidden;
+    }              
+#content{
+    background-image: url('road.png'); 
+    width:1024px; 
+    height:1086px; 
+    overflow-x: hidden
+    }
+a:link { 
+    text-decoration: none;
+}
+#l1 {
+    float:right; 
+    position: relative; 
+    top:441px; 
+    right:150px; 
+    width:160px; 
+    height:50px; 
+    margin-left:25px; 
+    margin-top:px; 
+    padding-top: px; 
+    border:px solid red; 
+}
+#l2 { 
+    float:right; 
+    position: relative; 
+    top:389px; 
+    right:341px; 
+    width:160px; 
+    height:50px; 
+    margin-left:25px; 
+    margin-top:px; 
+    padding-top: px; 
+    border:px solid rgb(0, 17, 255); 
+}
+#l3 {
+    float:right; 
+    position: relative; 
+    top:496px; 
+    right:-36px; 
+    width:160px; 
+    height:50px; 
+    margin-left:25px; 
+    margin-top:px; 
+    padding-top: px; 
+    border:px solid rgb(115, 255, 0); 
+}
+#t {
+    margin-top: 26px;
+    margin-left: 16px;
+    color: transparent; 
+    text-shadow: 0 0 2px #949494;
+}
+#t:hover {  
+    color: transparent; 
+    text-shadow: 0 0 2px #fff;
+}
+.t1 { 
+    color: transparent; 
+    text-shadow: 0 0 2px #b1b1b1;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;;
+}
+.t1:hover {  
+    color: transparent; 
+    text-shadow: 0 0 2px #fff
+}
+#ig {
+    margin-top: 23px;
+    margin-left: 10px;
+    color: transparent; 
+    text-shadow: 0 0 2px #949494;
+}
+#ig:hover {  
+    color: transparent; 
+    text-shadow: 0 0 2px #fff;
+}
+.ig1 { 
+    color: transparent; 
+    text-shadow: 0 0 2px #b1b1b1;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;;
+}
+.ig1:hover {  
+    color: transparent; 
+    text-shadow: 0 0 2px #fff
+}
+#ln {
+    margin-top: 22px;
+    margin-left: 11px;
+    color: transparent; 
+    text-shadow: 0 0 2px #949494;
+}
+#ln:hover {  
+    color: transparent; 
+    text-shadow: 0 0 2px #fff;
+}
+.ln1 { 
+    color: transparent; 
+    text-shadow: 0 0 2px #b1b1b1;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;;
+}
+.ln1:hover {  color: transparent; 
+    text-shadow: 0 0 2px #fff
+}
