@@ -1,5 +1,5 @@
 body {                      
-    font-family: Helvetica;   
+    font-family: overpass;   
     background:fixed;
     background-color: black;
     background-image: url('sunset.png'); 
@@ -44,12 +44,18 @@ body {
     overflow-x: hidden
 }
 
+/* City sign */
+
 .local{
     position: absolute;
     color: transparent; 
     text-shadow: 0 0 2px #949494;
-    left: 326px;
+    left: 324px;
     top: 380px;
+}
+
+.west {
+    font-size: 22px;
 }
 
 .local h2, .west{
@@ -64,9 +70,11 @@ a:link {
     text-decoration: none;
 }
 
+/* Social media links */
+
 .route {
     position: absolute;
-    top:375px; 
+    top:377px; 
     right:440px; 
 }
 
@@ -197,6 +205,8 @@ a:link {
     text-shadow: 0 0 2px #fff;
 }
 
+/* Neon sign */
+
 .neonsign {
     position: absolute;
     background-color: black;
@@ -207,6 +217,7 @@ a:link {
     text-align: center;
     z-index: 2;
 }
+
 .neonborder {
     position: absolute;
     top: 630px;
@@ -230,8 +241,8 @@ a:link {
     height: 80px;
     width: 5px;
     position: absolute;
-    top: 680px;
-    left: 223px;
+    top: 684px;
+    left: 226px;
 }
 
 .neon{
@@ -242,17 +253,25 @@ a:link {
     top: 10%;
     left: 53%;
     transform: translate(-50%, -50%);
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 4px;
-    text-shadow: 0px 0px 2px  #fff, 0px 0px 2px #fff, 0px 0px 4px #2c45d4, 0px 0px 7px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 125px #2c45d4, 0px 0vw 200px #2c45d4,0px 0vw 200px #2c45d4;
+    text-shadow: 0 0 .3rem #fff,
+    0 0 .4rem #fff,
+    0 0 .45rem #2c45d4,
+    0 0 .5rem #2c45d4,
+    0 0 .6rem #2c45d4,
+    0 0 .8rem #2c45d4,
+    0 0 1rem #2c45d4;
+
+    
 }
 
 #sdog {
     position: relative;
-    -webkit-text-stroke: 1.2px #e26262;
-    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.2px #e06f6f;
+	-webkit-text-fill-color: transparent;
     top: 50px;
-    left: 16px;
+    left: 18px;
     animation-name: rotate;
     animation-timing-function: steps(2, end);
     animation-duration: 3s;
@@ -261,12 +280,13 @@ a:link {
     transform-origin: bottom left;
     z-index: 10;
 }
+
 #bdog {
     position: relative;
     top: 50px;
-    right: 15px;
-    -webkit-text-stroke: 2.75px #e24949;
-    -webkit-text-fill-color: transparent;
+    right: 12px;
+    -webkit-text-stroke: 2.75px #d64141;
+	-webkit-text-fill-color: transparent;
     filter: blur(2px);
     animation-name: rotate;
     animation-timing-function: steps(2, end);
@@ -274,8 +294,8 @@ a:link {
     animation-iteration-count:infinite;
     animation-delay: 0s;
     transform-origin: bottom left;
-
 }
+
 @keyframes rotate {
     0% {
     transform: rotate(0);
@@ -303,5 +323,3 @@ a:link {
     opacity: 0.4;
     }
 }
-
-  
