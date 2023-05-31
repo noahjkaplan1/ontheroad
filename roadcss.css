@@ -172,7 +172,7 @@ a:link {
 #ln {
     position: absolute;
     top: 22px;
-    right: 18px;
+    right: 15px;
 }
 
 .ln1 { 
@@ -215,7 +215,6 @@ a:link {
     width: 105px;
     border-radius: 10px;
     border: 0.1rem solid #fff;
-    animation: flicker 13s linear infinite;
     box-shadow: 0 0 .3rem #fff,
     inset 0 0 .3rem #fff,
     0 0 1rem #2c45d4,
@@ -226,7 +225,7 @@ a:link {
 }
 
 .signpost {
-    background-image: linear-gradient(to bottom, #161616, black);
+    background-image: linear-gradient(to bottom, #414141, black);
     z-index: 1;
     height: 80px;
     width: 5px;
@@ -236,25 +235,41 @@ a:link {
 }
 
 .neon{
-    font-family: Segoe Print;
+    font-family: Delius Unicase;
     font-size:11px;
-    color: #d5ddff;
+    color: #fff;
     position: absolute;
     top: 10%;
     left: 53%;
     transform: translate(-50%, -50%);
     font-weight: 200;
     letter-spacing: 4px;
-    text-shadow: 1px 0px 2px #d5ddff, 1px 0px 0px #d5ddff, 3px 0px 2px #d5ddff, 2px 4px 3px #2c45d4, 2px 3px 15px #2c45d4, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #2c45d4,40px 0vw 200px #2c45d4;
+    text-shadow: 0px 0px 2px  #fff, 0px 0px 2px #fff, 0px 0px 4px #2c45d4, 0px 0px 7px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 125px #2c45d4, 0px 0vw 200px #2c45d4,0px 0vw 200px #2c45d4;
 }
 
 .fa-solid {
     position: relative;
-    color: #000;
+    color: #c53d3d;
     top: 50px;
     right: 5px;
     left: 2px;
-    text-shadow: 1px 0px 2px #e68b8b, 1px 0px 5px #e68b8b, 3px 0px 4px #e68b8b, 2px 0px 5px #d42c2c, 2px 3px 18px #d42c2c, 2px 0px 25px, 5px 0px 125px #d42c2c, 20px 0vw 200px #d42c2c,40px 0vw 200px #d42c2c;
+    animation-name: rotate;
+    animation-timing-function: steps(2, end);
+    animation-duration: 3.2s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    transform-origin: bottom left;
+    text-shadow: 0px 0px 2px #e68b8b, 0px 0px 5px #e68b8b, 0px 0px 4px #e68b8b, 0px 0px 5px #d42c2c, 0px 0px 18px #d42c2c, 0px 0px 25px, 0px 0px 125px #d42c2c, 0px 0vw 200px #d42c2c,0px 0vw 200px #d42c2c;
+}
+
+@keyframes rotate {
+    0% {
+    transform: rotate(0);
+    }
+    
+    100% {
+    transform: rotate(-0.1turn);
+    }
 }
 
 .flicker-slow{
@@ -262,7 +277,7 @@ a:link {
 }
   
 .flicker-fast{
-    animation: flicker 1s linear infinite;
+    animation: flicker 5s linear infinite;
 }
   
 @keyframes flicker {
