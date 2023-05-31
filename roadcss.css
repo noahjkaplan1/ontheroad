@@ -249,8 +249,8 @@ a:link {
 
 #sdog {
     position: relative;
-	-webkit-text-stroke: 1.2px #e26262;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.2px #e26262;
+    -webkit-text-fill-color: transparent;
     top: 50px;
     left: 16px;
     animation-name: rotate;
@@ -265,9 +265,9 @@ a:link {
     position: relative;
     top: 50px;
     right: 15px;
-    -webkit-text-stroke: 3.45px #e24949;
-	-webkit-text-fill-color: transparent;
-    filter: blur(2.25px);
+    -webkit-text-stroke: 2.75px #e24949;
+    -webkit-text-fill-color: transparent;
+    filter: blur(2px);
     animation-name: rotate;
     animation-timing-function: steps(2, end);
     animation-duration: 3s;
