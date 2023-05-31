@@ -217,10 +217,10 @@ a:link {
     border: 0.1rem solid #fff;
     box-shadow: 0 0 .3rem #fff,
     inset 0 0 .3rem #fff,
-    0 0 1rem #2c45d4,
-    inset 0 0 1rem #2c45d4,
-    0 0 1rem #2c45d4,
-    inset 0 0 1.5rem #2c45d4; 
+    0 0 .8rem #2c45d4,
+    inset 0 0 .8rem #2c45d4,
+    0 0 .8rem #2c45d4,
+    inset 0 0 .9rem #2c45d4; 
     z-index: 3;
 }
 
@@ -247,22 +247,35 @@ a:link {
     text-shadow: 0px 0px 2px  #fff, 0px 0px 2px #fff, 0px 0px 4px #2c45d4, 0px 0px 7px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 15px #2c45d4, 0px 0px 125px #2c45d4, 0px 0vw 200px #2c45d4,0px 0vw 200px #2c45d4;
 }
 
-.fa-solid {
+#sdog {
     position: relative;
-    -webkit-text-stroke: 1.25px #c55c5c;
-    -webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.2px #e26262;
+	-webkit-text-fill-color: transparent;
     top: 50px;
-    right: 5px;
-    left: 2px;
+    left: 16px;
     animation-name: rotate;
     animation-timing-function: steps(2, end);
     animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-delay: 0s;
     transform-origin: bottom left;
-    text-shadow: 0px 0px 3px #000, 0px 0px 2px #c55c5c, 0px 0px 2px #c55c5c,0px 0px 4px #c52f2f, 1px 1px 7px #c52f2f, 0px 0px 15px #c52f2f, 0px 0px 25px, 0px 0px 30px #c52f2f;
+    z-index: 10;
 }
+#bdog {
+    position: relative;
+    top: 50px;
+    right: 15px;
+    -webkit-text-stroke: 3.45px #e24949;
+	-webkit-text-fill-color: transparent;
+    filter: blur(2.25px);
+    animation-name: rotate;
+    animation-timing-function: steps(2, end);
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+    transform-origin: bottom left;
 
+}
 @keyframes rotate {
     0% {
     transform: rotate(0);
