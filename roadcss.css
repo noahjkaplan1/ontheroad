@@ -249,17 +249,18 @@ a:link {
 
 .fa-solid {
     position: relative;
-    color: #c53d3d;
+	-webkit-text-stroke: 1.25px #c55c5c;
+	-webkit-text-fill-color: transparent;
     top: 50px;
     right: 5px;
     left: 2px;
     animation-name: rotate;
     animation-timing-function: steps(2, end);
-    animation-duration: 3.2s;
+    animation-duration: 3s;
     animation-iteration-count:infinite;
     animation-delay: 0s;
     transform-origin: bottom left;
-    text-shadow: 0px 0px 2px #e68b8b, 0px 0px 5px #e68b8b, 0px 0px 4px #e68b8b, 0px 0px 5px #d42c2c, 0px 0px 18px #d42c2c, 0px 0px 25px, 0px 0px 125px #d42c2c, 0px 0vw 200px #d42c2c,0px 0vw 200px #d42c2c;
+    text-shadow: 0px 0px 10px #000, 0px 0px 3px #d42c2c, 0px 0px 4px #d42c2c, 1px 1px 7px #d42c2c, 0px 0px 25px #d42c2c, 0px 0px 25px, 0px 0px 125px #d42c2c, 0px 0vw 200px #d42c2c,0px 0vw 200px #d42c2c;
 }
 
 @keyframes rotate {
