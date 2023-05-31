@@ -18,7 +18,7 @@ body {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 550px;
+    width: 790px;
     color: transparent; 
     text-shadow: 0 0 2.5px#877245;
     font-size: 44px;
@@ -52,10 +52,35 @@ body {
     text-shadow: 0 0 2px #949494;
     left: 324px;
     top: 380px;
+    width: 200px;
+    height: 500px;
+}
+
+.number {
+    position: absolute;
+    left: 34px;
+    top: -18px
 }
 
 .west {
-    font-size: 22px;
+    position: absolute;
+    font-size: 24px;
+    left: 93px;
+    top: -22px;
+    font-weight: 100;
+}
+
+.city {
+    position: absolute;
+    font-size: 25px;
+    left: 20px;
+    padding-top: 10px;
+}
+
+.miles {
+    position: absolute;
+    left: 20px;
+    top: 143px;
 }
 
 .local h2, .west{
@@ -215,15 +240,6 @@ a:link {
     top: 630px;
     left: 175px;
     text-align: center;
-    z-index: 2;
-}
-
-.neonborder {
-    position: absolute;
-    top: 630px;
-    left: 175px;
-    height: 75px;
-    width: 105px;
     border-radius: 10px;
     border: 0.1rem solid #fff;
     box-shadow: 0 0 .3rem #fff,
@@ -232,7 +248,8 @@ a:link {
     inset 0 0 .8rem #2c45d4,
     0 0 .8rem #2c45d4,
     inset 0 0 .9rem #2c45d4; 
-    z-index: 3;
+    z-index: 2;
+    filter: brightness(0.9);
 }
 
 .signpost {
@@ -262,8 +279,6 @@ a:link {
     0 0 .6rem #2c45d4,
     0 0 .8rem #2c45d4,
     0 0 1rem #2c45d4;
-
-    
 }
 
 #sdog {
@@ -322,4 +337,18 @@ a:link {
     20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
     opacity: 0.4;
     }
+}
+
+/* Smokey the bear */
+
+.smokey {
+    position: absolute;
+    background-image: url('smokey.png');
+    background-size: contain;
+    height: 64px;
+    width: 80px;
+    top: 600px;
+    left: 640px;
+    transform: rotateY(20deg);
+    filter: brightness(0.5);
 }
