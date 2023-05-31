@@ -230,8 +230,6 @@ a:link {
     text-shadow: 0 0 2px #fff;
 }
 
-/* Neon sign */
-
 .neonsign {
     position: absolute;
     background-color: black;
@@ -250,6 +248,7 @@ a:link {
     inset 0 0 .9rem #2c45d4; 
     z-index: 2;
     filter: brightness(0.9);
+    filter: blur(.45px);
 }
 
 .signpost {
@@ -260,6 +259,7 @@ a:link {
     position: absolute;
     top: 684px;
     left: 226px;
+    filter: blur(.55px);
 }
 
 .neon{
@@ -351,4 +351,5 @@ a:link {
     left: 640px;
     transform: rotateY(20deg);
     filter: brightness(0.5);
+    filter: blur(.45px);
 }
