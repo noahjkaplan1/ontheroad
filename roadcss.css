@@ -344,7 +344,7 @@ a:link {
     position: relative;
     top: 45px;
     left: 3px;
-    -webkit-text-stroke: 3px #181717;
+    -webkit-text-stroke: 3px transparent;
 	-webkit-text-fill-color: transparent;
     filter: blur(2.5px);
     font-size: 30px;
