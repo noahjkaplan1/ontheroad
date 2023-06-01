@@ -250,8 +250,7 @@ a:link {
     0 0 .8rem #2c45d4,
     inset 0 0 .9rem #2c45d4; 
     z-index: 2;
-    filter: brightness(0.9);
-    filter: blur(.45px);
+    filter: blur(.45px) brightness(0.9);
 }
 
 .signpost {
