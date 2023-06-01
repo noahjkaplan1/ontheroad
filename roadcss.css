@@ -391,6 +391,5 @@ a:link {
     top: 600px;
     left: 640px;
     transform: rotateY(20deg);
-    filter: brightness(0.4);
-    filter: blur(.45px);
+    filter: blur(.45px) brightness(60%);
 }
