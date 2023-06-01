@@ -362,7 +362,7 @@ a:link {
 }
 
 .flicker-slow{
-    animation: flicker 0s linear infinite;
+    animation: flicker 10s linear infinite;
 }
   
 .flicker-fast{
