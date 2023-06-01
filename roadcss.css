@@ -72,15 +72,16 @@ body {
 
 .city {
     position: absolute;
-    font-size: 25px;
-    left: 20px;
-    padding-top: 10px;
+    font-size: 23px;
+    left: 21px;
+    padding-top: 17px;
 }
 
 .miles {
     position: absolute;
     left: 20px;
     top: 143px;
+    font-weight: 700;
 }
 
 .local h2, .west{
@@ -129,7 +130,7 @@ a:link {
 .t1 { 
     position: absolute;
     top: -3px;
-    left: 70px;
+    left: 57px;
     font-size: 20px;
 }
 
@@ -170,7 +171,7 @@ a:link {
 .ig1 { 
     position: absolute;
     top: -3px;
-    left: 70px;
+    left: 57px;
     font-size: 20px;
 }
 
@@ -211,7 +212,7 @@ a:link {
 .ln1 { 
     position: absolute;
     top: -3px;
-    left: 70px;
+    left: 57px;
     font-size: 20px;
 }
 
@@ -325,7 +326,7 @@ a:link {
 }
 
 .neonsign:hover #arrowtop{
-    animation: flicker 1s linear;
+    animation: flicker 1.5s linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
     -webkit-text-stroke: 1.5px #e06f6f;
@@ -333,7 +334,7 @@ a:link {
 }
 
 .neonsign:hover #arrowbottom{
-    animation: flicker 1s linear;
+    animation: flicker 1.5s linear;
     animation-delay: 0s;
     animation-iteration-count: 1;
     -webkit-text-stroke: 3px #d64141;
@@ -368,9 +369,9 @@ a:link {
 .flicker-fast{
     animation: flicker 0s linear infinite;
 }
-  
+
 @keyframes flicker {
-    0%, 19.999%, 22%, 62.999%, 64%, 0%, 70%, 100% {
+    0%, 19.999%, 22%, 62.999%, 64%, 70%, 100% {
     opacity: .99;     
     }
 
@@ -390,6 +391,6 @@ a:link {
     top: 600px;
     left: 640px;
     transform: rotateY(20deg);
-    filter: brightness(0.5);
+    filter: brightness(0.4);
     filter: blur(.45px);
 }
